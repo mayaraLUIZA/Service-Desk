@@ -21,6 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://172.16.1.21:6200/pt/helpdesk/')
 
+
 WebUI.setText(findTestObject('Object Repository/Page_Service Desk/input_Nome de usurio ou endereo de email_userName'), 'mayara.moraes@dataplace.com.br')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Service Desk/input_Senha_password'), 'pvvnYawLOklX1Ekx9+JeNw==')
@@ -32,4 +33,6 @@ WebUI.verifyElementText(findTestObject('Object Repository/Page_Service Desk/li_U
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Service Desk/input_Senha_password'), 'yygGFEFk8bWvHiKQZ1SyaA==')
 
 WebUI.click(findTestObject('Object Repository/Page_Service Desk/button_Login'))
+
+WebUI.closeBrowser()
 
