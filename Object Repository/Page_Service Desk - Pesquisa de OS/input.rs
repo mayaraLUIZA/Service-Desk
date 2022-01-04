@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Nome de usurio ou endereo de email_userName</name>
+   <name>input</name>
    <tag></tag>
-   <elementGuidId>2a06045f-2612-4b6d-bb63-bc7956fc3308</elementGuidId>
+   <elementGuidId>52642584-865a-47fc-914f-f75d05897e95</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='userName']</value>
+         <value>(//input[@value=''])[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#userName</value>
+         <value>div.checkbox > input[type=&quot;checkbox&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,50 +26,36 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>userName</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>text</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>formcontrolname</name>
-      <type>Main</type>
-      <value>userName</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>form-control ng-untouched ng-pristine ng-invalid</value>
+      <value>checkbox</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;userName&quot;)</value>
+      <value>id(&quot;collapseFiltros&quot;)/div[@class=&quot;card-body&quot;]/form[@class=&quot;ng-valid ng-dirty ng-touched&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-12&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-6&quot;]/div[@class=&quot;jumbotron&quot;]/div[@class=&quot;form-row&quot;]/div[@class=&quot;col form-group&quot;]/app-profissional-ccusto-list[@class=&quot;ng-untouched ng-pristine ng-valid&quot;]/table[@class=&quot;table table-bordered table-responsive table-striped listbox&quot;]/thead[1]/tr[1]/th[1]/div[@class=&quot;checkbox&quot;]/input[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='userName']</value>
+      <value>(//input[@value=''])[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='collapseFiltros']/div/form/div/div/div/div/div/div[3]/div/app-profissional-ccusto-list/table/thead/tr/th/div/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//input</value>
+      <value>//th/div/input</value>
    </webElementXpaths>
 </WebElementEntity>

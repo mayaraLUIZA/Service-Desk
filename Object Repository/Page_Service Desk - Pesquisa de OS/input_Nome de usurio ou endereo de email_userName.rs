@@ -3,7 +3,7 @@
    <description></description>
    <name>input_Nome de usurio ou endereo de email_userName</name>
    <tag></tag>
-   <elementGuidId>2a06045f-2612-4b6d-bb63-bc7956fc3308</elementGuidId>
+   <elementGuidId>3851e33b-0511-45a6-9e33-b6a3e1d8b15b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

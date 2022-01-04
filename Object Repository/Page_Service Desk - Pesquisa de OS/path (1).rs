@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>path</name>
+   <name>path (1)</name>
    <tag></tag>
    <elementGuidId>4948e745-9a0f-4536-b237-4d757ca416ba</elementGuidId>
    <selectorCollection>

@@ -22,17 +22,17 @@ WebUI.openBrowser('')
 WebUI.navigateToUrl('http://172.16.1.21:6200/pt/helpdesk/')
 
 
-WebUI.setText(findTestObject('Object Repository/Page_Service Desk/input_Nome de usurio ou endereo de email_userName'), 'mayara.moraes@dataplace.com.br')
+WebUI.setText(findTestObject('Page_Service Desk - Pesquisa de OS/input_Nome de usurio ou endereo de email_userName'), 'mayara.moraes@dataplace.com.br')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Service Desk/input_Senha_password'), 'pvvnYawLOklX1Ekx9+JeNw==')
+WebUI.setEncryptedText(findTestObject('Page_Service Desk - Pesquisa de OS/input_Senha_password'), 'pvvnYawLOklX1Ekx9+JeNw==')
 
-WebUI.click(findTestObject('Object Repository/Page_Service Desk/button_Login'))
+WebUI.click(findTestObject('Page_Service Desk - Pesquisa de OS/button_Login'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Service Desk/li_Usurio ou Senha incorretos'), 'Usuário ou Senha incorretos')
+WebUI.verifyElementText(findTestObject('Page_Service Desk - Pesquisa de OS/li_Usurio ou Senha incorretos'), 'Usuário ou Senha incorretos')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Service Desk/input_Senha_password'), 'yygGFEFk8bWvHiKQZ1SyaA==')
+WebUI.setEncryptedText(findTestObject('Page_Service Desk - Pesquisa de OS/input_Senha_password'), 'yygGFEFk8bWvHiKQZ1SyaA==')
 
-WebUI.click(findTestObject('Object Repository/Page_Service Desk/button_Login'))
+WebUI.click(findTestObject('Page_Service Desk - Pesquisa de OS/button_Login'))
 
 WebUI.closeBrowser()
 
