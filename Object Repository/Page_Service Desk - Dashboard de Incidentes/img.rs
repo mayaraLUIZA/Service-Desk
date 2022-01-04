@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Nome de usurio ou endereo de email_userName</name>
+   <name>img</name>
    <tag></tag>
-   <elementGuidId>2a06045f-2612-4b6d-bb63-bc7956fc3308</elementGuidId>
+   <elementGuidId>c3ca3023-0a9b-4ae2-8a17-ec59ee788f38</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#userName</value>
+         <value>img</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='userName']</value>
+         <value>//a[@id='saudacaoUsuario']/div/div[2]/img</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,55 +21,55 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>userName</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>text</value>
+      <value>img</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>formcontrolname</name>
+      <name>size</name>
       <type>Main</type>
-      <value>userName</value>
+      <value>36</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://www.gravatar.com/avatar/ca03debf85a6adecc1cf939d77568de3?s=72&amp;r=g&amp;d=mp</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>fallback</name>
       <type>Main</type>
-      <value>form-control ng-untouched ng-pristine ng-invalid</value>
+      <value>mp</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;userName&quot;)</value>
+      <value>id(&quot;saudacaoUsuario&quot;)/div[@class=&quot;d-flex justify-content-end&quot;]/div[@class=&quot;mr-1 ml-2&quot;]/img[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//input[@id='userName']</value>
+      <value>//a[@id='saudacaoUsuario']/div/div[2]/img</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[contains(@src,'https://www.gravatar.com/avatar/ca03debf85a6adecc1cf939d77568de3?s=72&amp;r=g&amp;d=mp')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//input</value>
+      <value>//img</value>
    </webElementXpaths>
 </WebElementEntity>

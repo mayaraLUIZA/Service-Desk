@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="teste" time="12.918" tests="1" failures="0" errors="0">
+   <testsuite name="teste" tests="1" failures="0" errors="0" time="12.918" skipped="0" timestamp="2022-01-04 15:35:55" hostname="Administrator - 172.16.2.74" id="Test Suites/teste">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Administrator\\git\\Service-Desk\\Reports\\20220104_153551\\teste\\20220104_153551"/>
+         <property name="logFiles" value="C:\\Users\\Administrator\\git\\Service-Desk\\Reports\\20220104_153551\\teste\\20220104_153551\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Administrator - 172.16.2.74"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.0.208"/>
+         <property name="browser" value="Chrome 96.0.4664.110"/>
+         <property name="hostAddress" value="172.16.2.74"/>
+         <property name="sessionId" value="4aa6a6374f27e5431573a041a1de4c28"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC02- Pesquisar o.s com filtro" time="12.568" classname="Test Cases/TC02- Pesquisar o.s com filtro" status="PASSED">
+         <system-out><![CDATA[2022-01-04 15:35:56 - [TEST_CASE][PASSED] - Test Cases/TC02- Pesquisar o.s com filtro: Test Cases/TC02- Pesquisar o.s com filtro
+
+2022-01-04 15:35:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-04 15:35:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-04 15:35:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-04 15:35:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-04 15:35:59 - [TEST_STEP][PASSED] - navigateToUrl("http://172.16.1.21:6200/pt/helpdesk/"): Navigate to 'http://172.16.1.21:6200/pt/helpdesk/' successfully
+
+2022-01-04 15:36:00 - [MESSAGE][PASSED] - Navigate to 'http://172.16.1.21:6200/pt/helpdesk/' successfully
+
+2022-01-04 15:36:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Service Desk/input_Nome de usurio ou endereo de email_userName"), "mayara.moraes@dataplace.com.br"): Text 'mayara.moraes@dataplace.com.br' is set on object 'Object Repository/Page_Service Desk/input_Nome de usurio ou endereo de email_userName'
+
+2022-01-04 15:36:01 - [MESSAGE][PASSED] - Text 'mayara.moraes@dataplace.com.br' is set on object 'Object Repository/Page_Service Desk/input_Nome de usurio ou endereo de email_userName'
+
+2022-01-04 15:36:01 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Service Desk/input_Senha_password"), "yygGFEFk8bWvHiKQZ1SyaA=="): Text ****** has been set on object 'Object Repository/Page_Service Desk/input_Senha_password'
+
+2022-01-04 15:36:01 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Service Desk/input_Senha_password'
+
+2022-01-04 15:36:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Service Desk/button_Login")): Object: 'Object Repository/Page_Service Desk/button_Login' is clicked on
+
+2022-01-04 15:36:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Service Desk/button_Login' is clicked on
+
+2022-01-04 15:36:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Service Desk - Dashboard de Incidentes/a_OS")): Object: 'Object Repository/Page_Service Desk - Dashboard de Incidentes/a_OS' is clicked on
+
+2022-01-04 15:36:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Service Desk - Dashboard de Incidentes/a_OS' is clicked on
+
+2022-01-04 15:36:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Service Desk - Dashboard de Incidentes/a_Dashboard")): Object: 'Object Repository/Page_Service Desk - Dashboard de Incidentes/a_Dashboard' is clicked on
+
+2022-01-04 15:36:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Service Desk - Dashboard de Incidentes/a_Dashboard' is clicked on
+
+2022-01-04 15:36:03 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Service Desk - Pesquisa de OS/select_ADM - Administrao, financeiro e RH A_fb46d5"), "PRD", true): All options with value 'PRD' are selected in object 'Object Repository/Page_Service Desk - Pesquisa de OS/select_ADM - Administrao, financeiro e RH A_fb46d5'  using regular expression
+
+2022-01-04 15:36:05 - [MESSAGE][PASSED] - All options with value 'PRD' are selected in object 'Object Repository/Page_Service Desk - Pesquisa de OS/select_ADM - Administrao, financeiro e RH A_fb46d5'  using regular expression
+
+2022-01-04 15:36:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Service Desk - Pesquisa de OS/input_Selecionar vrios profissionais_multip_a2b070")): Object: 'Object Repository/Page_Service Desk - Pesquisa de OS/input_Selecionar vrios profissionais_multip_a2b070' is clicked on
+
+2022-01-04 15:36:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Service Desk - Pesquisa de OS/input_Selecionar vrios profissionais_multip_a2b070' is clicked on
+
+2022-01-04 15:36:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Service Desk - Pesquisa de OS/input")): Object: 'Object Repository/Page_Service Desk - Pesquisa de OS/input' is clicked on
+
+2022-01-04 15:36:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Service Desk - Pesquisa de OS/input' is clicked on
+
+2022-01-04 15:36:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Service Desk - Pesquisa de OS/input_Cliente_typeahead-cliente")): Object: 'Object Repository/Page_Service Desk - Pesquisa de OS/input_Cliente_typeahead-cliente' is clicked on
+
+2022-01-04 15:36:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Service Desk - Pesquisa de OS/input_Cliente_typeahead-cliente' is clicked on
+
+2022-01-04 15:36:07 - [TEST_STEP][NOT_RUN] - selectOptionByValue(findTestObject("Object Repository/Page_Service Desk - Pesquisa de OS/select_Encerramento sem execuo  Projeto fut_5fa042"), "1: 4", true): NOT_RUN: selectOptionByValue(findTestObject("Object Repository/Page_Service Desk - Pesquisa de OS/select_Encerramento sem execuo  Projeto fut_5fa042"), "1: 4", true)
+
+2022-01-04 15:36:07 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByValue(findTestObject("Object Repository/Page_Service Desk - Pesquisa de OS/select_Encerramento sem execuo  Projeto fut_5fa042"), "1: 4", true)
+
+2022-01-04 15:36:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Service Desk - Pesquisa de OS/button_Pesquisar")): Object: 'Object Repository/Page_Service Desk - Pesquisa de OS/button_Pesquisar' is clicked on
+
+2022-01-04 15:36:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Service Desk - Pesquisa de OS/button_Pesquisar' is clicked on
+
+2022-01-04 15:36:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Service Desk - Pesquisa de OS/h4_Ordens de Servio"), 0): Object 'Object Repository/Page_Service Desk - Pesquisa de OS/h4_Ordens de Servio' is present
+
+2022-01-04 15:36:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-01-04 15:36:08 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Service Desk - Pesquisa de OS/h4_Ordens de Servio' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-01-04 15:35:55 - [TEST_SUITE][PASSED] - teste: Test Cases/TC02- Pesquisar o.s com filtro]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+teste,Chrome 96.0.4664.110,,,2022-01-04 15:35:55,2022-01-04 15:36:08,"12,918s",PASSED
+,,,,,,,
+Test Cases/TC02- Pesquisar o.s com filtro,Chrome 96.0.4664.110,,,2022-01-04 15:35:56,2022-01-04 15:36:08,"12,568s",PASSED
+"openBrowser("""")",Chrome 96.0.4664.110,,,2022-01-04 15:35:56,2022-01-04 15:35:59,"2,570s",PASSED
+"navigateToUrl(""http://172.16.1.21:6200/pt/helpdesk/"")",Chrome 96.0.4664.110,,,2022-01-04 15:35:59,2022-01-04 15:36:00,"1,219s",PASSED
+"setText(findTestObject(""Object Repository/Page_Service Desk/input_Nome de usurio ou endereo de email_userName""), ""mayara.moraes@dataplace.com.br"")",Chrome 96.0.4664.110,,,2022-01-04 15:36:00,2022-01-04 15:36:01,"0,945s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Service Desk/input_Senha_password""), ""yygGFEFk8bWvHiKQZ1SyaA=="")",Chrome 96.0.4664.110,,,2022-01-04 15:36:01,2022-01-04 15:36:01,"0,565s",PASSED
+"click(findTestObject(""Object Repository/Page_Service Desk/button_Login""))",Chrome 96.0.4664.110,,,2022-01-04 15:36:01,2022-01-04 15:36:02,"0,555s",PASSED
+"click(findTestObject(""Object Repository/Page_Service Desk - Dashboard de Incidentes/a_OS""))",Chrome 96.0.4664.110,,,2022-01-04 15:36:02,2022-01-04 15:36:03,"0,755s",PASSED
+"click(findTestObject(""Object Repository/Page_Service Desk - Dashboard de Incidentes/a_Dashboard""))",Chrome 96.0.4664.110,,,2022-01-04 15:36:03,2022-01-04 15:36:03,"0,531s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Service Desk - Pesquisa de OS/select_ADM - Administrao, financeiro e RH A_fb46d5""), ""PRD"", true)",Chrome 96.0.4664.110,,,2022-01-04 15:36:03,2022-01-04 15:36:05,"1,978s",PASSED
+"click(findTestObject(""Object Repository/Page_Service Desk - Pesquisa de OS/input_Selecionar vrios profissionais_multip_a2b070""))",Chrome 96.0.4664.110,,,2022-01-04 15:36:05,2022-01-04 15:36:06,"0,534s",PASSED
+"click(findTestObject(""Object Repository/Page_Service Desk - Pesquisa de OS/input""))",Chrome 96.0.4664.110,,,2022-01-04 15:36:06,2022-01-04 15:36:06,"0,519s",PASSED
+"click(findTestObject(""Object Repository/Page_Service Desk - Pesquisa de OS/input_Cliente_typeahead-cliente""))",Chrome 96.0.4664.110,,,2022-01-04 15:36:06,2022-01-04 15:36:07,"0,404s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Service Desk - Pesquisa de OS/select_Encerramento sem execuo  Projeto fut_5fa042""), ""1: 4"", true)",Chrome 96.0.4664.110,,,2022-01-04 15:36:07,2022-01-04 15:36:07,"0,003s",NOT_RUN
+"click(findTestObject(""Object Repository/Page_Service Desk - Pesquisa de OS/button_Pesquisar""))",Chrome 96.0.4664.110,,,2022-01-04 15:36:07,2022-01-04 15:36:07,"0,489s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Service Desk - Pesquisa de OS/h4_Ordens de Servio""), 0)",Chrome 96.0.4664.110,,,2022-01-04 15:36:07,2022-01-04 15:36:08,"0,961s",PASSED

@@ -40,7 +40,7 @@ WebUI.click(findTestObject('Object Repository/Page_Service Desk - Pesquisa de OS
 
 WebUI.click(findTestObject('Object Repository/Page_Service Desk - Pesquisa de OS/input_Cliente_typeahead-cliente'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Service Desk - Pesquisa de OS/select_Encerramento sem execuo  Projeto fut_5fa042'), 
+not_run: WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Service Desk - Pesquisa de OS/select_Encerramento sem execuo  Projeto fut_5fa042'), 
     '1: 4', true)
 
 WebUI.click(findTestObject('Object Repository/Page_Service Desk - Pesquisa de OS/button_Pesquisar'))

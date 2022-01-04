@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "B893D861214EDE894D17B59C069FFF18",
+  "keywordClasses": [
+    {
+      "name": "mypack.Login",
+      "keywordMethods": [
+        {
+          "name": "getLogin",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}
