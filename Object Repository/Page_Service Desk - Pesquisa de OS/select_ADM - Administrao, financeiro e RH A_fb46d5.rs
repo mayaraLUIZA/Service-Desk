@@ -6,12 +6,12 @@
    <elementGuidId>bb23e27a-ff8e-47c2-aa2d-4ca98a4a5f6b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//select[@id='cdccusto']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#cdccusto</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='cdccusto']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -27,14 +27,6 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Service Desk/input
 
 WebUI.click(findTestObject('Object Repository/Page_Service Desk/button_Login'))
 
-if(WebUI.verifyElementText(findTestObject('Object Repository/Page_Service Desk - Dashboard de Incidentes/div_Mayara Luiza Moraes Normandia'), 
-    'Mayara Luiza Moraes Normandia') != "Maria Luiza Moraes Normandia"){
-System.out.println("Username correto")
-WebUI.click(findTestObject('Object Repository/Page_Service Desk - Dashboard de Incidentes/img'))
-WebUI.closeBrowser()
-}else {
-	System.out.println("A condição é falsa")
-
-}
-
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Service Desk - Dashboard de Incidentes/div_Login realizado com suscesso'), 
+    'Login realizado com suscesso!')
 
