@@ -3,7 +3,7 @@
    <description></description>
    <name>button_Salvar</name>
    <tag></tag>
-   <elementGuidId>5c69581b-09c6-4661-a125-622416d24e21</elementGuidId>
+   <elementGuidId>de30ed21-393b-4d8e-affc-21d71d5722af</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -92,26 +92,5 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[10]/div/button</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Comentário'])[1]/following::button[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Estimativa de horas'])[1]/following::button[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div[4]/div/button</value>
    </webElementXpaths>
 </WebElementEntity>
