@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC11- Pesquisar incidente por profissional</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>94d2bc38-0cb6-4fc4-b987-e6b9797f0001</testCaseGuid>
+</TestCaseEntity>
