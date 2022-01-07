@@ -29,6 +29,26 @@
       "proposedLocatorMethod": "CSS",
       "recoveryMethod": "CSS",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Service Desk - Dashboard de Incidentes/path_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Service Desk - Alocao de recursos/Page_Service Desk - Pendentes para escalonamento/path",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "svg.svg-inline--fa.fa-ellipsis-h.fa-w-16 \u003e path",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Service Desk - Alocao de recursos/Page_Service Desk - Pendentes para escalonamento/path_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Service Desk - Alocao de recursos/Page_Service Desk - Incidente/select_ADM-Administrao, financeiro e RHALFA_6cb2f0",
+      "brokenLocator": "//select[@id\u003d\u0027CentroTrabalhoOs\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Classificação\u0027])[1]/preceding::select[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Service Desk - Alocao de recursos/Page_Service Desk - Incidente/select_ADM-Administrao, financeiro e RHALFA_6cb2f0_neighbor.png"
     }
   ]
 }
