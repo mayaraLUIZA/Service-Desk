@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Dataplace Suporte Corporativo</name>
+   <tag></tag>
+   <elementGuidId>571195ea-298c-4a24-a08d-553f99d1ce24</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='AQAAAAAAAQABAAAAERUB+QAAAAA=']/div/div/div/div[2]/div/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span[title=&quot;dpsuporte@dataplace.com.br&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>dpsuporte@dataplace.com.br</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Dataplace Suporte Corporativo</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;AQAAAAAAAQABAAAAERUB+QAAAAA=&quot;)/div[1]/div[@class=&quot;Vq6wcpNKPy0sZ_F4WgCm- _3DtajPDCgcod22k2Lj913U _1n2-cmjz7wai2ImcUAHRgH _29Z3GpJ-h4tXQCOYyShJDr _17vQH1m_l2BdTdb4zlDWQu _3kOv5H95uriW0UJqnzxQyY _1yeTnoNkSL8TQYVNlv8s43 _2t8JTlYe89E2LUOAQG564N&quot;]/div[@class=&quot;_3uDKZZbosbt_MutV5HLmnr _3AhvfFCmTCMeJ_TiEpVcdH&quot;]/div[@class=&quot;_1bVZQZoqR8bXQm6sTkfm1W&quot;]/div[@class=&quot;jTAkD2jRfbL9Z5ghmYym-&quot;]/div[@class=&quot;_2ZDUqsleGa-jar5wAYvVzV&quot;]/span[1]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='AQAAAAAAAQABAAAAERUB+QAAAAA=']/div/div/div/div[2]/div/div/span</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Caixa de Entrada'])[3]/following::span[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dataplace Service Desk Portal - Redefina sua senha'])[1]/preceding::span[4]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dataplace Suporte Corporativo'])[2]/preceding::span[8]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Dataplace Suporte Corporativo']/parent::*</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[2]/div/div/div/div/div/div/div/div/div/div[2]/div/div/span</value>
+   </webElementXpaths>
+</WebElementEntity>
