@@ -6,12 +6,12 @@
    <elementGuidId>e67128ba-8a2d-470e-b4ae-ac75e1efc0ce</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#ordemServicoSubmenu > li > a.sidebar-item</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//ul[@id='ordemServicoSubmenu']/li/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#ordemServicoSubmenu > li > a.sidebar-item</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

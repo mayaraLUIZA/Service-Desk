@@ -49,6 +49,36 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Service Desk - Alocao de recursos/Page_Service Desk - Incidente/select_ADM-Administrao, financeiro e RHALFA_6cb2f0_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Service Desk/Page_Service Desk - Pesquisa de OS/path",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "#inputGroup-sizing-sm \u003e svg.svg-inline--fa.fa-search.fa-w-16 \u003e path",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Service Desk/Page_Service Desk - Pesquisa de OS/path_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Service Desk/Page_Service Desk/Page_Service Desk/Page_Service Desk - OS 232966/path",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "svg.svg-inline--fa.fa-check.fa-w-16.my-float \u003e path",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Service Desk/Page_Service Desk/Page_Service Desk/Page_Service Desk - OS 232966/path_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Service Desk/Page_Service Desk/Page_Service Desk/Page_Service Desk - Dashboard de Incidentes/Page_Service Desk - OS 239555/ngb-highlight_0200000 - DP INFORMTICA LTDA _3f1b14",
+      "brokenLocator": "//button[@id\u003d\u0027ngb-typeahead-5-0\u0027]/ngb-highlight",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Cliente\u0027])[1]/following::ngb-highlight[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Service Desk/Page_Service Desk/Page_Service Desk/Page_Service Desk - Dashboard de Incidentes/Page_Service Desk - OS 239555/ngb-highlight_0200000 - DP INFORMTICA LTDA _3f1b14_neighbor.png"
     }
   ]
 }
