@@ -79,6 +79,16 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Service Desk/Page_Service Desk/Page_Service Desk/Page_Service Desk - Dashboard de Incidentes/Page_Service Desk - OS 239555/ngb-highlight_0200000 - DP INFORMTICA LTDA _3f1b14_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Service Desk - Pesquisa de OS/input_Navegar para_numero (2)",
+      "brokenLocator": "//input[@id\u003d\u0027numero\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Service Desk - Pesquisa de OS/input_Navegar para_numero (2)_position.png"
     }
   ]
 }
