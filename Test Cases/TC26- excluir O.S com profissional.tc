@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC26-</name>
+   <name>TC26- excluir O.S com profissional</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>bdbe69d8-713d-4abf-8f22-233be3e88a0f</testCaseGuid>
