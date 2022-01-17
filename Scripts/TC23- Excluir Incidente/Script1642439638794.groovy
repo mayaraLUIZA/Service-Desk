@@ -21,24 +21,26 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://172.16.1.21:6200/pt/helpdesk/')
 
-WebUI.setText(findTestObject('Object Repository/Page_Service Desk/input_Nome de usurio ou endereo de email_userName (12)'), 
+WebUI.setText(findTestObject('Object Repository/Page_Service Desk/input_Nome de usurio ou endereo de email_userName (13)'), 
     'mayara.moraes@dataplace.com.br')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Service Desk/input_Senha_password (12)'), 'yygGFEFk8bWvHiKQZ1SyaA==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Service Desk/input_Senha_password (13)'), 'VyEwZ4wqgy2Ncp1q8xsbYA==')
 
-WebUI.click(findTestObject('Object Repository/Page_Service Desk/button_Login (12)'))
+WebUI.click(findTestObject('Object Repository/Page_Service Desk/button_Login (13)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Service Desk - Dashboard de Incidentes/a_OS (4)'))
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Service Desk/input_Senha_password (13)'), 'yygGFEFk8bWvHiKQZ1SyaA==')
 
-WebUI.click(findTestObject('Object Repository/Page_Service Desk - Dashboard de Incidentes/a_Dashboard (3)'))
+WebUI.click(findTestObject('Object Repository/Page_Service Desk/button_Login (13)'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Service Desk - Pesquisa de OS/input_Navegar para_numero (1)'), '240555')
+WebUI.click(findTestObject('Object Repository/Page_Service Desk - Dashboard de Incidentes/a_Incidente (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Service Desk - Pesquisa de OS/button_Navegar para_submit (1)'))
+WebUI.click(findTestObject('Object Repository/Page_Service Desk - Dashboard de Incidentes/a_Dashboard (4)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Service Desk - OS 240554/a_Profissionais'))
+WebUI.click(findTestObject('Object Repository/Page_Service Desk - Dashboard de Incidentes/a_Pendentes para escalonamento (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Service Desk - OS 240554/button_Excluir OS'))
+WebUI.click(findTestObject('Object Repository/Page_Service Desk - Pendentes para escalonamento/button_O nosso BI no est atualizando desde _7bd220'))
 
-WebUI.click(findTestObject('Object Repository/Page_Service Desk - OS 240554/button_Confirmar'))
+WebUI.click(findTestObject('Object Repository/Page_Service Desk - Pendentes para escalonamento/a_Excluir'))
+
+WebUI.click(findTestObject('Object Repository/Page_Service Desk - Pendentes para escalonamento/button_Confirmar'))
 

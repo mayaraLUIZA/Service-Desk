@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC23- Excluir Incidente</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9ce76654-0534-4c2e-83f6-2525e54edd07</testCaseGuid>
+</TestCaseEntity>
