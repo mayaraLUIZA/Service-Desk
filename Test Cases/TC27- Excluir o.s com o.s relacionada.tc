@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC27- Excluir o.s com o.s relacionada</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b8c596ad-e88a-4e65-97d4-31e05fca8460</testCaseGuid>
+</TestCaseEntity>
